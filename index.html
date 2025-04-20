@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--BOX ICONS-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <!--CSS-->
+        <link rel="stylesheet" href="styles.css">
+        <title>FinZo</title>
+    </head>
+
+    <body>
+        <!--SCROLL TOP-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--HEADER-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">FinZo</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+                        <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
+                        <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+
+            <!--HOME -->
+            <section class="home" id="home">
+                <div class="gradient-blob"></div>
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="images/online-analysis.png" alt="online-analysis">
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Take Control of Your Money with Finzo</h1>
+                        <p class="home__description">Easily track your expenses, set savings goals, and understand where your money goes — all in one simple dashboard.
+                        </p>
+                        <a href="#pricing" class="button">Get Started</a>
+                    </div>   
+                </div>
+            </section>
+            
+            <!--SUB HOME-->
+            <section class="share section bd-container" id="home">
+                <div class="gradient-blob2"></div>
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">Everything You Need to <br> Manage Your Finances</h2>
+                        <p class="share__description">Finzo offers an all-in-one solution to help you track your expenses, set financial goals, and gain insight into your spending habits—making money management simple and stress-free.</p>
+                    </div>
+                    <div class="share__img">
+                        <img src="images/money-wallet.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+<!--FEATURES-->
+<section class="features section" id="features">
+    <div class="bd-container">
+        <div class="gradient-blob3"></div>
+        <h2 class="section-title1">Powerful Features for Smarter Money Management</h2>
+        <div class="features__container bd-grid">
+        
+            <div class="features__card">
+                <i class='bx bx-bar-chart-alt-2 features__icon'></i>
+                <h3 class="features__title">Expense Tracking</h3>
+                <p class="features__description">
+                    Monitor your spending in real-time and stay on top of your budget with ease.
+                </p>
+            </div>
+        
+            <div class="features__card">
+                <i class='bx bx-wallet-alt features__icon'></i>
+                <h3 class="features__title">Personalized Budgeting</h3>
+                <p class="features__description">
+                    Create customized budgets and savings plans tailored to your financial goals.
+                </p>
+            </div>
+        
+            <div class="features__card">
+                <i class='bx bx-pie-chart-alt-2 features__icon'></i>
+                <h3 class="features__title">Insightful Reports</h3>
+                <p class="features__description">
+                    Visualize your financial health with clear, easy-to-understand charts and analytics.
+                </p>
+            </div>
+        
+            <div class="features__card">
+                <i class='bx bx-lock-alt features__icon'></i>
+                <h3 class="features__title">Bank-level Security</h3>
+                <p class="features__description">
+                    Your data is protected with advanced encryption and best-in-class security standards.
+                </p>
+            </div>
+
+            <div class="features__card">
+                <i class='bx bx-bell features__icon'></i>
+                <h3 class="features__title">Bill Reminders</h3>
+                <p class="features__description">
+                    Never miss a due date with smart bill reminders and automated alerts, save on paying unnecessary penalties.
+                </p>
+            </div>
+
+            <div class="features__card">
+                <i class='bx bx-calendar-star features__icon'></i>
+                <h3 class="features__title">Financial Planning</h3>
+                <p class="features__description">
+                    Plan for future expenses and milestones with easy-to-use financial tools and forecasts with our powerful and easy to use tools.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--PRICING-->
+<section class="pricing section" id="pricing">
+    <div class="bd-container">
+        <h2 class="section-title2">Simple & Affordable Pricing</h2>
+        <p class="section-subtitle">Manage your finances smarter, for less than a coffee a month!</p>
+
+        <div class="pricing__container bd-grid">
+
+            <div class="pricing__card">
+                <h3 class="pricing__plan">Starter</h3>
+                <p class="pricing__price">₹99<span>/month</span></p>
+                <ul class="pricing__features">
+                    <li>Track up to 3 accounts</li>
+                    <li>Basic expense tracking</li>
+                    <li>Monthly budget reminders</li>
+                </ul>
+                <a href="#" class="button button--pricing">Get Started</a>
+            </div>
+
+            <div class="pricing__card pricing__card--highlight">
+                <h3 class="pricing__plan">Pro</h3>
+                <p class="pricing__price">₹199<span>/month</span></p>
+                <ul class="pricing__features">
+                    <li>Unlimited accounts</li>
+                    <li>Advanced budgeting tools</li>
+                    <li>Custom financial reports</li>
+                    <li>Priority customer support</li>
+                </ul>
+                <a href="#" class="button button--pricing">Upgrade Now</a>
+            </div>
+
+            <div class="pricing__card">
+                <h3 class="pricing__plan">Elite</h3>
+                <p class="pricing__price">₹299<span>/month</span></p>
+                <ul class="pricing__features">
+                    <li>All Pro features</li>
+                    <li>AI financial insights</li>
+                    <li>Personal finance advisor</li>
+                    <li>Early access to new tools</li>
+                </ul>
+                <a href="#" class="button button--pricing">Go Elite</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="testimonials section" id="testimonials">
+    <h2 class="section__title">What Our Users Say</h2>
+    
+  
+    <!-- Testimonials Container -->
+    <div class="testimonials__container">
+      
+      <!-- Testimonial 1 -->
+      <div class="testimonial__card">
+        <p class="testimonial__text">
+          "Finzo has made managing my savings incredibly easy. I feel more confident about my finances and appreciate 
+          how user-friendly the app is. Highly recommend!"
+        </p>
+        <div class="testimonial__user">
+          <img src="images/t1.jpg" alt="Aarav Sharma" class="testimonial__img">
+          <div>
+            <h3 class="testimonial__name">Arti Sharma</h3>
+            <p class="testimonial__role">Entrepreneur</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Testimonial 2 -->
+      <div class="testimonial__card">
+        <p class="testimonial__text">
+          "Finzo is an absolute game-changer for budgeting and investment tracking. I’m finally on top of my finances!"
+        </p>
+        <div class="testimonial__user">
+          <img src="images/t2.jpg" alt="Sneha Kapoor" class="testimonial__img">
+          <div>
+            <h3 class="testimonial__name">Sneha Kapoor</h3>
+            <p class="testimonial__role">Freelancer</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Testimonial 3 -->
+      <div class="testimonial__card">
+        <p class="testimonial__text">
+          "The best finance app I’ve used so far! The ease of tracking spending and saving has given me more control over my money."
+        </p>
+        <div class="testimonial__user">
+          <img src="images/t3.jpg" alt="Rohan Verma" class="testimonial__img">
+          <div>
+            <h3 class="testimonial__name">Rohini Verma</h3>
+            <p class="testimonial__role">Software Developer</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+        
+<!--CONTACT-->
+<section class="contact section bd-container" id="contact">
+    <h2 class="section-title">Get in Touch With Us</h2>  
+    <div class="contact__container bd-grid">
+      <form action="#" class="contact__form">
+        <div class="contact__inputs">
+          <input type="text" placeholder="Your Name" class="contact__input" required>
+          <input type="email" placeholder="Your Email" class="contact__input" required>
+        </div>
+        <input type="text" placeholder="Subject" class="contact__input" required>
+        <textarea placeholder="Your Message" class="contact__input contact__textarea" required></textarea>
+  
+        <button type="submit" class="button">Send Message</button>
+      </form>
+  
+      <div class="contact__info">
+        <h3 class="contact__subtitle">Let's Connect</h3>
+        <p class="contact__text"><i class='bx bx-map'></i> 2WV6+VXH, VN Purav Marg, Deonar, Chembur, Mumbai, Maharashtra 400088</p>
+        <p class="contact__text"><i class='bx bx-envelope'></i> support@finzo.com</p>
+        <p class="contact__text"><i class='bx bx-phone-call'></i> +91 83560 54395</p>
+      </div>
+    </div>
+  </section>
+  
+<!--FOOTER-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">FinGuard</a>
+                    </h3>
+                    <p class="footer__description">Financial freedom starts here. FinGuard makes it easy to track, save, and thrive.</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#features" class="footer__link">Features</a></li>
+                        <li><a href="#pricing" class="footer__link">Pricing</a></li>
+                        <li><a href="#testimonials" class="footer__link">Testimonials</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="https://www.facebook.com/" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="https://x.com/?lang=en-in" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2025 FinGuard. All rights reserved</p>
+        </footer>
+
+        <!--SCROLL REVEAL-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--MAIN JS-->
+        <script src="main.js"></script>
+        
+    </body>
+</html>
